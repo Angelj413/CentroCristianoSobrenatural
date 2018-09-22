@@ -1,0 +1,173 @@
+#log_nav{
+	height: 70px;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+
+.navbar_per{
+	background-color: white!important;
+	box-shadow: 0px 6px 15px 1px rgba(0,0,0,0.33);
+}
+
+#carousel img{
+	max-height: 80vh! important;
+	object-fit: cover;
+	filter: grayscale(20%);
+}
+
+#carousel{
+	position: relative;
+}
+
+#carousel .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+#carousel .overlay .container, .row{
+	height: 100%;
+}
+
+.button_per{
+	background: linear-gradient(to right, rgba(56,16,22,0) 0%, rgba(204,30,51,0.81) 100%)!important;
+}
+
+
+/*.footer{
+	background: linear-gradient(to right, rgba(241,142,153,1) 0%, rgba(186,39,55,1) 100%)!important;
+}*/
+
+#footer {
+  background: linear-gradient(to right, rgba(161,24,40,1) 0%, rgba(43,12,16,0.77) 100%);
+}
+
+#footer a {
+  color: white;
+}
+
+.tarjetas .cartas{
+	border-color: #a11828;
+}
+
+.history .container .row .col h2{
+	color: #a11828;
+	font-size: 3rem;
+}
+
+.history .container .row .col span{
+	color: #a11828;
+}
+
+.parallax1{
+	height: 250px;
+	background: url('img/cruz.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	filter: grayscale(20%);
+}
+
+.post{
+	cursor: pointer;
+	position: relative;
+	display: block;
+}
+
+.post-image{
+	margin: 0;
+}
+
+.post-image img{
+	width: 100%;
+	vertical-align: top;
+	height: 100%;
+
+}
+
+.post-overlay{
+	background:rgba(0,0,0,.4);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+
+.post:hover .post-overlay{
+	display: flex;
+}
+
+.post-likes, .post-comments{
+			width: 80px;
+			margin: 5px;
+			font-weight: bold;
+			text-align: center;
+			display: inline-block;	
+		}
+
+.ministerios .padre-grid{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3,1fr);
+	justify-content: center;
+	grid-gap: 10px;
+	grid-template-areas: "img1 img2 img3"
+						"img4 title-grid img5"
+						"img6 img7 img8"
+}
+
+.ministerios .padre-grid img{
+	width: 100%;
+	height: 300px;
+}
+
+.title-grid{
+	grid-area: title-grid;
+}
+
+
+.img1{
+	grid-area: img1;
+}
+
+.img2{
+	grid-area: img2;
+}
+
+.img3{
+	grid-area: img3;
+}
+
+.img4{
+	grid-area: img4;
+}
+
+.img5{
+	grid-area: img5;
+}
+
+.img6{
+	grid-area: img6;
+}
+
+.img7{
+	grid-area: img7;
+}
+
+.img8{
+	grid-area: img8;
+}
