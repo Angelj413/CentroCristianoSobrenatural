@@ -67,7 +67,7 @@
 
 .parallax1{
 	height: 250px;
-	background: url('img/cruz.jpg');
+	background: url('img/panorama.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -121,7 +121,7 @@
 
 .ministerios .padre-grid{
 	display: grid;
-	width: 100%;
+	width: 90%;
 	grid-template-columns: repeat(3,1fr);
 	justify-content: center;
 	grid-gap: 10px;
@@ -132,7 +132,7 @@
 
 .ministerios .padre-grid img{
 	width: 100%;
-	height: 300px;
+	height: 200px;
 }
 
 .title-grid{
@@ -171,3 +171,59 @@
 .img8{
 	grid-area: img8;
 }
+
+#carouselServicios{
+	height: 50vh;
+	width: 100%;
+}
+
+#carouselServicios{
+	height: 30vh;
+	width: 100%;
+}
+
+#carouselServicios .carousel-inner:nth-of-type(1), #carouselServicios .carousel-inner:nth-of-type(2){
+	height: 100%;
+}
+
+#carouselServicios .carousel-inner:nth-of-type(1), #carouselServicios .carousel-inner:nth-of-type(2){
+	background: url(img/rama.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	color: white;
+}
+
+.messageService{
+	height: 30vh;
+	margin-top: 5%;
+}
+
+.servicios .container-fluid{
+	position: relative;
+}
+
+.servicios .container-fluid .title{
+	position: absolute;
+	color: white;
+	z-index: 2;
+}
+
+/*.messageService{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 0;
+}
+
+#carouselServicios .carousel-item img{
+	max-height: 80vh! important;
+	object-fit: cover;
+	filter: grayscale(50%);
+	width: 100%;
+}*/
